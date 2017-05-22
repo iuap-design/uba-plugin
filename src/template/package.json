@@ -1,0 +1,27 @@
+{
+  "name": "uba-",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iuap-design/uba-plugin.git"
+  },
+  "keywords": [
+    "uba",
+    "uba-install",
+    "plugin"
+  ],
+  "author": "yueming@yonyou.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iuap-design/uba-plugin/issues"
+  },
+  "homepage": "https://github.com/iuap-design/uba-plugin#readme",
+  "dependencies": {
+    "chalk": "^1.1.3"
+  }
+}
