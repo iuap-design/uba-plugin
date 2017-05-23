@@ -1,11 +1,3 @@
-/*
- * @Author: Kvkens
- * @Date:   2017-5-15 00:00:00
- * @Last Modified by:   Kvkens
- * @Last Modified time: 2017-5-19 22:38:39
- */
-
-
 const chalk = require("chalk");
 
 
