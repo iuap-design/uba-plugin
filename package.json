@@ -1,10 +1,10 @@
 {
   "name": "uba-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "uba plugin generate",
   "main": "index.js",
   "scripts": {
-    
+
   },
   "repository": {
     "type": "git",
