@@ -3,6 +3,9 @@
   "version": "<%= version %>",
   "description": "<%= description %>",
   "main": "index.js",
+  "bin": {
+    "uba-plugin": "./bin/uba-plugin.js"
+  },
   "scripts": {
     "test" : "node test"
   },
