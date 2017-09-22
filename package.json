@@ -1,6 +1,6 @@
 {
   "name": "uba-plugin",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "uba plugin generate",
   "main": "index.js",
   "bin": {

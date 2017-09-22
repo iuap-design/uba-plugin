@@ -68,7 +68,8 @@ function genPlugin(commands) {
   if (!pathExists.sync(`uba-${commands[1]}`)) {
     fs.mkdirSync(path.resolve('.', `uba-${commands[1]}`));
     fse.copySync(path.join(__dirname, 'template'), path.resolve('.', `uba-${commands[1]}`));
-
+    //fse.copySync(path.join(__dirname, 'template/gitignore'), path.resolve('.', `uba-${commands[1]}/.gitignore`));
+    fs.renameSync(path.resolve('.', `uba-${commands[1]}/gitignore`),path.resolve('.', `uba-${commands[1]}/.gitignore`));
     inquirer.prompt(questions).then(function(answers) {
       answers.name = `uba-${commands[1]}`;
       writeFile(path.resolve('.', `uba-${commands[1]}`, 'package.json'), path.resolve('.', `uba-${commands[1]}`, 'package.json'), answers);
